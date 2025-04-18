@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../style.css">
+
+<title>MyRecipes | Home</title>
+</head>
+
+<body>
+    <nav class="topbar">
+        <img class="logo" src="../images/myrecipes.png">
+                <div class="form-search">
+                    <i onclick="doSearch()" id="searchbutton" class='bx bx-search icon'></i>
+                    <input type="text" id="searchbar" class="search-bar" placeholder="Find a recipe"></div>
+        
+            <div class="right-icons">
+                <button class="azbutton" onclick="document.location='../index.html'"><i class='bx bxs-home'></i> Home</button>
+            </div>
+        
+        </nav>
+        <script src="../search.js"></script>
+    </nav>
+
+    <section class="recipe">
+    <h1 class="homewelcome">Welcome back, Marilyn</h1>
+    <h2 class="subheading">Your recipes</h2>
+    <hr style="margin-top: 15px; margin-bottom: 25px;">
+    <div class="recipelist">
+        <div class="recipetile" onclick="document.location='../recipes/asparagus-soup'" style="display: none;">
+            <img src="images/asparagussoup.jpg">
+            <div class="recipecaption">Asparagus Soup</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/banana-oat-biscuits'" style="display: none;">
+            <img src="images/bananabiscuits.jpg">
+            <div class="recipecaption">Banana Oat Biscuits</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/banana-bread'" style="display: none;">
+            <img src="images/bananabread.jpg">
+            <div class="recipecaption">Banana Bread</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/beef-meatballs'" style="display: none;">
+            <img src="images/beefmeatballs.jpg">
+            <div class="recipecaption">Beef Meatballs in Guinness</div>
+        </div>
+    </div>
+    <div class="recipelist">
+        <div class="recipetile" onclick="document.location='../recipes/biscotti'" style="display: none;">
+            <img src="images/biscotti.jpg">
+            <div class="recipecaption">Biscotti</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/bombay-potatoes'" style="display: none;">
+            <img src="images/bombaypotatoes.jpg">
+            <div class="recipecaption">Bombay Potatoes</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/braised-beef-silverside'" style="display: none;">
+            <img src="images/braisedbeef.jpg">
+            <div class="recipecaption">Braised Beef Silverside</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/buttermilk-scones'" style="display: none;">
+            <img src="images/caulirice.jpg">
+            <div class="recipecaption">Cauliflower Rice</div>
+        </div>
+    </div>
+    <div class="recipelist">
+        <div class="recipetile" onclick="document.location='../recipes/cauliflower-soup'" style="display: none;">
+            <img src="images/caulisoup1.jpg">
+            <div class="recipecaption">Cauliflower Soup</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/cauliflower-soup-2'" style="display: none;">
+            <img src="images/caulisoup2.jpg">
+            <div class="recipecaption">Cauliflower Soup 2</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/cavatappi-pomodoro'" style="display: none;">
+            <img src="images/cavapomo.jpg">
+            <div class="recipecaption">Cavatappi Pomodoro</div>
+        </div>
+        <div class="recipetile" onclick="document.location='../recipes/chicken-dhal'" style="display: none;">
+            <img src="images/chickendhal.jpg">
+            <div class="recipecaption">Chicken Dhal</div>
+        </div>
+    </div>
+    
+    </section>
+    </body>

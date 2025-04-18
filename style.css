@@ -1,0 +1,199 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap" rel="stylesheet');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+body{
+    background-color: #f6f6f6;
+}
+.recipe{
+    transform: translateY(70px);
+}
+.topbar{
+    height: 60px;
+    padding: 10px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.topbar .logo{
+    height: 100%;
+}
+.topbar .form-search{
+    transform: translateX(160px) translateY(-45px);
+}
+.topbar .form-search .icon{
+    color: #4878d7;
+    font-size: 20px;
+    transform: translateX(40px) translateY(2px);
+}
+.topbar .form-search input{
+    height: 40px;
+    width: 270px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 14px;
+    color: #000000;
+    font-size: 19px;
+    padding-left: 45px;
+}
+.topbar .form-search input::placeholder{
+    color: #000f2c;
+}
+.topbar .search .icon{
+    transform: translateY(2px);
+}
+.topbar .search:hover{
+    background-color: #f1f1f10b;
+}
+.right-icons{
+    float: right;
+    transform: translateY(-80px);
+    margin-right: 10px;
+}
+.right-icons button{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 7px;
+    font-size: 21px;
+    background-color: #b4b4b400;
+    color: #4878d7;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.right-icons .leftbutton{
+    background-color: #16161600;
+    color: #fff;
+    outline: 1px solid #262626;
+}
+.right-icons .azbutton:hover{
+    background-color: #f0f0f0;
+}
+.right-icons .login{
+    background-color: #264764;
+}
+.right-icons .login:hover{
+    background-color: #516785;
+}
+.right-icons .leftbutton:hover{
+    background-color: #232323;
+}
+.right-icons button i{
+    transform: translateY(1px);
+}
+.right-icons .leftbutton i{
+    color: #e2bd26;
+}
+.recipename{
+    font-size: 38px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    background-color: #4878d7;
+}
+.ingredients{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    width: 70%;
+    line-height: 1.3;
+    font-weight: 500;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: #fff;
+    outline: 1px solid #cecece;
+}
+.ingredients b{
+    color: #4878d7;
+}
+.ingredients .ingredient{
+    font-size: 25px;
+}
+.topboxes{
+    display: flex;
+    height: 100%;
+}
+.recipepicture{
+    width: calc(30% - 15px);
+    margin-right: 15px;
+    object-fit: cover;
+    outline: 1px solid #cecece;
+    border-radius: 15px;
+}
+.directions{
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    outline: 1px solid #cecece;
+    display: flex;
+    flex-direction: column;
+}
+.directions .dirtext{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1c1c1c;
+}
+.directions .dirtext b{
+    color: #4878d7;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.homewelcome{
+    margin-left: 30px;
+    color: #4878d7;
+    font-size: 35px;
+    letter-spacing: -0.5px;
+}
+.subheading{
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.recipelist{
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+.recipelist .recipetile{
+    background-color: #fff;
+    margin-left: 10px;
+    width: 25%;
+    height: 150px;
+    display: grid;
+    border-radius: 10px;
+    align-items: end;
+    object-fit: cover;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.recipelist .recipetile img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    filter: brightness(60%);
+    object-fit: cover;
+}
+.recipelist .recipetile .recipecaption{
+    position: absolute;
+    padding: 15px;
+    width: 25%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+}
