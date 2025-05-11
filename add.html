@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="../style.css">
+
+<title>MyRecipes | Home</title>
+</head>
+
+<body>
+    <nav class="topbar">
+        <img class="logo" src="../images/myrecipes.png">
+                <div class="form-search">
+                    <i onclick="doSearch()" id="searchbutton" class='bx bx-search icon'></i>
+                    <input type="text" id="searchbar" class="search-bar" placeholder="Find a recipe"></div>
+        
+            <div class="right-icons">
+                <button class="azbutton" onclick="document.location='../index.html'"><i class='bx bxs-home'></i> Home</button>
+            </div>
+        
+        </nav>
+        <script src="../search.js"></script>
+    </nav>
+
+    <section class="recipe">
+    <h1 class="homewelcome">Add a new recipe</h1>
+    <h2 class="subheading">Upload a recipe from another website to store it in the MyRecipes app</h2>
+    <hr style="margin-top: 15px; margin-bottom: 25px;">
+
+    <div class="uploadform">
+                <p>Upon submitting, you will be redirected to an external provider. It may take up to 24 hours
+            for the submitted recipe to be processed and added to your 'My Recipes' page.
+        </p>
+        <p>Once uploaded and the confirmation message is shown, tap the 'Done' button in the top
+            left corner of your screen to return to the homepage.
+        </p>
+        <p>If a link is submitted that is not a recipe, it will most likely be disapproved and not added
+            to your library.
+        </p>
+        
+        <form class="recipeupload" action="https://formsubmit.co/tlowdon10@outlook.com" method="POST">
+            <input placeholder="Recipe URL" type="text" name="name" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    
+    </section>
+    </body>

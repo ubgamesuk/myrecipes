@@ -131,12 +131,32 @@ body{
     outline: 1px solid #cecece;
     border-radius: 15px;
 }
+.addnew{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 25px;
+    color: #4878d7;
+    margin-bottom: 10px;
+    outline: 1px solid #d7d7d7;
+    transition: 0.3s ease;
+}
+.addnew i{
+    font-size: 46px;
+}
+.addnew:hover{
+    background-color: #4878d7;
+    color: #fff;
+}
 .directions{
     margin: 15px;
     padding: 15px;
     background-color: #fff;
     border-radius: 15px;
     outline: 1px solid #cecece;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -196,4 +216,31 @@ body{
     font-size: 24px;
     font-weight: 500;
     line-height: 1.1;
+}
+.uploadform{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.uploadform .recipeupload input{
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    outline: 1px solid #a0a0a0;
+    border-radius: 10px;
+}
+.uploadform .recipeupload button{
+    padding: 20px;
+    font-size: 26px;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    color: #fff;
+    background-color: #4878d7;
+    outline: 1px solid #a0a0a0;
+    border-radius: 10px;
+}
+.uploadform p{
+    font-size: 18px;
+    margin-bottom: 15px;
 }
